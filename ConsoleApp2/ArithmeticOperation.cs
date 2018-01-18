@@ -6,7 +6,7 @@ namespace GenericCalculator
 {
     public class ArithmeticOperation<T>
     {
-        AbstractCalculator<T> my_Calculator;
+        private AbstractCalculator<T> my_Calculator;
 
         public ArithmeticOperation(AbstractCalculator<T> myCalculator)
         {

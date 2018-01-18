@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace GenericCalculator
-{
-   public class Startup : program
+{ 
+   public class Startup : program //inheritance from program
     {
         //Overload method
         public void Info()
         {
              
         }
+
         /// <summary>
-        /// writing your name and the param info in to a console
+        /// writing your name and parses info as an string
         /// </summary>
         /// <param name="info"></param>
         public void Info(string info)
@@ -21,13 +22,17 @@ namespace GenericCalculator
         }
 
         /// <summary>
-        /// writing your age and the param info in to a console
+        /// writing your age and parses info as an int
         /// </summary>
         /// <param name="info"></param>
         public void Info(int info)
         {
             Console.WriteLine("Age : " + info);
         }
+
+        /// <summary>
+        /// Simple method who has all the int writelines for the program
+        /// </summary>
         public void IntegerDisplay()
         {
             Console.WriteLine("Integer Calcullation");
@@ -37,6 +42,10 @@ namespace GenericCalculator
             Console.WriteLine("Mulitplication : {0}", intOperation.Multiply(numbers));
             Console.WriteLine("Division : {0}", intOperation.Divide(numbers));
         }
+
+        /// <summary>
+        /// Simple method who has all the double writelines for the program
+        /// </summary>
         public void DoubleDisplay()
         {
             Console.WriteLine("************************************************************");
