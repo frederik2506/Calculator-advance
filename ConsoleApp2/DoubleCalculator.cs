@@ -10,14 +10,17 @@ namespace GenericCalculator
         {
             return input1 + input2;
         }
+
         public override double Sub(double input1, double input2)
         {
             return input1 - input2;
         }
+
         public override double Multiply(double input1, double input2)
         {
             return input1 * input2;
         }
+
         public override double Divide(double input1, double input2)
         {
             return input1 / input2;

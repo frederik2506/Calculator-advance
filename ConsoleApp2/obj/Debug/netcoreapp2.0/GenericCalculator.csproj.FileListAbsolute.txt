@@ -20,3 +20,14 @@ C:\Users\frederik\Desktop\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.
 C:\Users\frederik\Desktop\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.AssemblyInfo.cs
 C:\Users\frederik\Desktop\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.dll
 C:\Users\frederik\Desktop\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.pdb
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\bin\Debug\netcoreapp2.0\GenericCalculator.deps.json
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\bin\Debug\netcoreapp2.0\GenericCalculator.runtimeconfig.json
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\bin\Debug\netcoreapp2.0\GenericCalculator.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\bin\Debug\netcoreapp2.0\GenericCalculator.dll
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\bin\Debug\netcoreapp2.0\GenericCalculator.pdb
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.dll
+C:\Users\Admin\Desktop\Calculator-advance-master\ConsoleApp2\obj\Debug\netcoreapp2.0\GenericCalculator.pdb

@@ -10,18 +10,20 @@ namespace GenericCalculator
         {
             return input1 + input2;
         }
+
         public override float Sub(float input1, float input2)
         {
             return input1 - input2;
         }
+
         public override float Multiply(float input1, float input2)
         {
             return input1 * input2;
         }
+
         public override float Divide(float input1, float input2)
         {
             return input1 / input2;
         }
-
     }
 }
