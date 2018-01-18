@@ -6,16 +6,24 @@ namespace GenericCalculator
 {
    public class Startup : program
     {
-        
+        //Overload method
         public void Info()
         {
              
         }
-        
+        /// <summary>
+        /// writing your name and the param info in to a console
+        /// </summary>
+        /// <param name="info"></param>
         public void Info(string info)
         {
             Console.WriteLine("Name : " + info);
         }
+
+        /// <summary>
+        /// writing your age and the param info in to a console
+        /// </summary>
+        /// <param name="info"></param>
         public void Info(int info)
         {
             Console.WriteLine("Age : " + info);
