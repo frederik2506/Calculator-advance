@@ -59,10 +59,15 @@ namespace GenericCalculator
 
                 Console.WriteLine("Your numbers \nNum1: {0}\nNum2: {1}",Num1,Num2);
                 Console.WriteLine("Name {0} {1}\nAge {2}\nWorkplace {3}\n",Name,Lastname,Age,Workplace);
+<<<<<<< HEAD
                 
                 //calling startup class with the method
                 s.IntegerDisplay();
                 
+=======
+                //calling startup class with the method
+                s.IntegerDisplay();
+>>>>>>> 084bde848f292d1069171d1bd8189e34f1e55f0a
                 //calling startup class with the method
                 s.DoubleDisplay();
 
