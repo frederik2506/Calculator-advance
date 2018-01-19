@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calc2", "..\..\source\repos\Calc2\Calc2\Calc2.csproj", "{27299525-5833-4124-B3AF-198C821FA1E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math", "..\..\source\repos\Calc2\Calc2\Math.csproj", "{27299525-5833-4124-B3AF-198C821FA1E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
