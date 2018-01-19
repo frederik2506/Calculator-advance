@@ -1,5 +1,6 @@
 ﻿namespace GenericCalculator
 {
+    //class abstract class which can override
     public abstract class AbstractCalculator<T>
     {
         public abstract T Add(T input1, T input2);

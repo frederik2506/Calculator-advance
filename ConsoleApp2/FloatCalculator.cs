@@ -6,6 +6,12 @@ namespace GenericCalculator
 {
     class FloatCalculator : AbstractCalculator<float>
     {
+        /// <summary>
+        /// methods to override
+        /// </summary>
+        /// <param name="input1"></param>
+        /// <param name="input2"></param>
+        /// <returns></returns>
         public override float Add(float input1, float input2)
         {
             return input1 + input2;

@@ -4,21 +4,31 @@ using System.Text;
 
 namespace GenericCalculator
 {
+    //uses T to reffer to the class
     public class ArithmeticOperation<T>
+        
     {
         AbstractCalculator<T> my_Calculator;
 
+        /// <summary>
+        /// Setter
+        /// </summary>
+        /// <param name="myCalculator"></param>
         public ArithmeticOperation(AbstractCalculator<T> myCalculator)
         {
             this.my_Calculator = myCalculator;
         }
-
+        /// <summary>
+        /// use of t name cause that is what we refee
+        /// </summary>
+        /// <param name="items"></param>
+        /// <returns></returns>
         public T Sum(List<T> items)
         {
-            dynamic sum = 0;
+            dynamic sum = 0; // varibel there is determinede when the program is run
 
             for (int i = 0; i<items.Count; i++)
-            {
+            {   //takes sum and puts it in to items array
                 sum = my_Calculator.Add(sum, items[i]);
             }
             return sum;

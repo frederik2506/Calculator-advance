@@ -6,7 +6,12 @@ namespace GenericCalculator
 {
     class IntCalculator : AbstractCalculator<int>
     {
-        
+        /// <summary>
+        /// method to override 
+        /// </summary>
+        /// <param name="input1"></param>
+        /// <param name="input2"></param>
+        /// <returns></returns>
         public override int Add(int input1, int input2)
         {
             return input1 + input2;

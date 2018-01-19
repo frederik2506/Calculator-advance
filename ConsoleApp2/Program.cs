@@ -12,6 +12,7 @@ namespace GenericCalculator
         public static List<double> doubleNumbers = new List<double>();
 
         public static ArithmeticOperation<int> intOperation = new ArithmeticOperation<int>(new IntCalculator());
+
         public static ArithmeticOperation<double> doubleOperation = new ArithmeticOperation<double>(new DoubleCalculator());
 
         public static string Num1;
@@ -58,26 +59,34 @@ namespace GenericCalculator
 
                 Console.WriteLine("Your numbers \nNum1: {0}\nNum2: {1}",Num1,Num2);
                 Console.WriteLine("Name {0} {1}\nAge {2}\nWorkplace {3}\n",Name,Lastname,Age,Workplace);
-
+                
+                //calling startup class with the method
                 s.IntegerDisplay();
-
+                
+                //calling startup class with the method
                 s.DoubleDisplay();
-            }
+
+                 
+            }//error if u try to divíde with zero
             catch (DivideByZeroException ex)
             {
                 Console.WriteLine("Division Error : {0}", ex.Message);
-            }
+            }//error message
             catch (Exception ex)
             {
                 Console.WriteLine("Error : {0}", ex.Message);
             }
             Console.ReadLine();
         }
-
+        /// <summary>
+        /// Method that converted Varibel Num1 - Num2
+        /// and adding it to the numbers list and the double list
+        /// </summary>
         public static void Convert()
         {
             try
             {
+                //Num1 - Num2 converted to int put into int list
                 int Intnum1 = System.Convert.ToInt32(Num1);
                 int Intnum2 = System.Convert.ToInt32(Num2);
                 numbers.Add(Intnum1);
@@ -85,6 +94,7 @@ namespace GenericCalculator
             }
             catch
             {
+                //Num1 - Num2 converted to double put into double list
                 double Dbl1 = System.Convert.ToDouble(Num1);
                 double Dbl2 = System.Convert.ToDouble(Num2);
                 doubleNumbers.Add(Dbl1);
