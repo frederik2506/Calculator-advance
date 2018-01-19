@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCalculator", "ConsoleApp2\GenericCalculator.csproj", "{50F19A9B-E06A-4A7E-8EDE-7B3D7B219EF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calc2", "..\..\source\repos\Calc2\Calc2\Calc2.csproj", "{27299525-5833-4124-B3AF-198C821FA1E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{50F19A9B-E06A-4A7E-8EDE-7B3D7B219EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50F19A9B-E06A-4A7E-8EDE-7B3D7B219EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50F19A9B-E06A-4A7E-8EDE-7B3D7B219EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50F19A9B-E06A-4A7E-8EDE-7B3D7B219EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27299525-5833-4124-B3AF-198C821FA1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27299525-5833-4124-B3AF-198C821FA1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27299525-5833-4124-B3AF-198C821FA1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27299525-5833-4124-B3AF-198C821FA1E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
